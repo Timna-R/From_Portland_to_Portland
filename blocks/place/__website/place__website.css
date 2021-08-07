@@ -4,6 +4,12 @@
     gap: 4px;
 }
 
+@media screen and (max-width: 768px) {
+    .place__website {
+        width: 352px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .place__website {
         width: 393px;
