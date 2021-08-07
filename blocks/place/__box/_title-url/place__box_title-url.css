@@ -1,0 +1,12 @@
+.place__box_title-url {
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+}
+
+@media screen and (max-width: 425px) {
+    .place__box_title-url  {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

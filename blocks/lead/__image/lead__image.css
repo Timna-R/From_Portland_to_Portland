@@ -1,0 +1,34 @@
+.lead__image {
+    width: 100%;
+    height: 615px;
+    background-image: url(../../../images/kalegin-michail-lead_image_optimized.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__image {
+        height: 580px;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        height: 480px;
+    }  
+}
+
+@media screen and (max-width: 425px) {
+    .lead__image {
+        background-size: 425px 263px;
+        height: 263px;
+    }  
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        background-size: 320px 200px;
+        height: 200px;
+    }  
+}

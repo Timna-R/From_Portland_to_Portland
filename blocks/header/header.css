@@ -1,0 +1,35 @@
+.header {
+    /* width: calc(100% - 148 * 2);
+    I tried to do calc but in developer tools it writes to me that it's invalid property value*/
+    width: 984px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 34px;
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .header {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        width: 393px;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .header {
+        width: 288px;
+    }
+}

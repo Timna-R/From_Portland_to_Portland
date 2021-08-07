@@ -1,0 +1,11 @@
+.place__box_img-para {
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+}
+
+@media screen and (max-width: 425px) {
+    .place__box_img-para  {
+        flex-direction: column;
+    }
+}

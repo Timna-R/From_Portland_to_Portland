@@ -1,0 +1,38 @@
+.place {
+    margin-top: 80px;
+    width: 984px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.place:first-child {
+    margin-top: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .place {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        width: 100%;
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place {
+        margin-top: 64px;
+        width: 425px;
+        gap: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        width: 320px;
+    }
+}

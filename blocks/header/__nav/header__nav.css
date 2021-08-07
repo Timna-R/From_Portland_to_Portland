@@ -1,0 +1,6 @@
+.header__links {
+    position: relative;
+    display: flex;
+    gap: 18px;
+    z-index: 0;
+}
