@@ -1,24 +1,19 @@
-.place__website {
+.places__website {
     width: 456px;
     align-self: flex-end;
     gap: 4px;
 }
 
-@media screen and (max-width: 768px) {
-    .place__website {
-        width: 352px;
-    }
-}
-
 @media screen and (max-width: 425px) {
-    .place__website {
+    .places__website {
+        margin: 30px auto;
         width: 393px;
         gap: 12px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .place__website {
+    .places__website {
         width: 288px;
     }
 }

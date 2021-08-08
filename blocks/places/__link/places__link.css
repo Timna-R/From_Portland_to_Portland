@@ -1,4 +1,4 @@
-.place__link {
+.places__link {
     color: white;
     font-family: Inter;
     font-size: 18px;
@@ -6,6 +6,6 @@
     opacity: 1;
 }
 
-.place__link:hover {
+.places__link:hover {
     opacity: 0.5;
 }

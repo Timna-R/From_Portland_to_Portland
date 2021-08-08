@@ -6,6 +6,7 @@
     align-items: center;
     text-decoration: none;
     background-image: url(../../../images/__background_optimized.jpg);
+    background-size: 1184px 740px;
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +27,7 @@
     opacity: 0.6;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
     .cover__link {
         background-size: 1024px 640px;
         height: 640px;

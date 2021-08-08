@@ -1,30 +1,32 @@
-.place {
+.places__place {
     margin-top: 80px;
     width: 984px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
     gap: 40px;
 }
 
-.place:first-child {
+.places__place:first-child {
     margin-top: 0;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .place {
+    .places__place {
         width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place {
+    .places__place {
         width: 100%;
+        grid-template-columns: 1fr 1fr;
         gap: 28px;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .place {
+    .places__place {
+        display: block;
         margin-top: 64px;
         width: 425px;
         gap: 48px;
@@ -32,7 +34,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .place {
+    .places__place {
         width: 320px;
     }
 }

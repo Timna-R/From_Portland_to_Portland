@@ -1,4 +1,4 @@
-.place__paragraph {
+.places__paragraph {
     margin: 0;
     margin-top: 25px;
     font-family: Inter;
@@ -6,25 +6,25 @@
     line-height: 163%;
 }
 
-.place__paragraph:first-child {
+.places__paragraph:first-child {
     margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph {
+    .places__paragraph {
         font-size: 16px;
     }
 }
 
- @media screen and (max-width: 425px) {
-    .place__paragraph {
+@media screen and (max-width: 425px) {
+    .places__paragraph {
         max-width: 393px;
         margin-left: 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .place__paragraph {
+    .places__paragraph {
         max-width: 288px;
     }
 }
