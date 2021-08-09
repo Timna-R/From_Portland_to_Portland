@@ -10,8 +10,8 @@
     opacity: 1;
 }
 
-.heder__lang-link:hover {
-    opacity: 0.6;
+.header__lang-link:hover {
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 425px) {
