@@ -6,7 +6,7 @@
     align-items: center;
     text-decoration: none;
     background-image: url(../../../images/__background_optimized.jpg);
-    background-size: 1184px 740px;
+    background-size: 100% 740px;
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,28 +29,21 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .cover__link {
-        background-size: 1024px 640px;
+        background-size: 100% 640px;
         height: 640px;
     }  
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 1024px) {
     .cover__link {
-        background-size: 768px 480px;
+        background-size: 100% 480px;
         height: 480px;
     }  
 }
 
 @media screen and (max-width: 425px) {
     .cover__link {
-        background-size: 425px 263px;
-        height: 263px;
-    }  
-}
-
-@media screen and (max-width: 320px) {
-    .cover__link {
-        background-size: 320px 200px;
+        background-size: 100% 200px;
         height: 200px;
     }  
 }

@@ -1,7 +1,4 @@
 .header {
-    /* width: calc(100% - 148 * 2);
-    I tried to do calc but in developer tools it writes to me that it's invalid property value*/
-    width: 984px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -10,26 +7,27 @@
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1270px){
     .header {
-        width: 928px;
+        max-width: calc( 100% -  2 * 148px);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 1270px)  {
     .header {
-        width: 720px;
+        max-width: calc( 100% -  2 * 48px);
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 1023px) {
     .header {
-        width: 393px;
+        max-width: calc( 100% -  2 * 24px);
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .header {
+        max-width: calc( 100% -  2 * 16px);
         padding-top: 20px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .header {
-        width: 288px;
     }
 }

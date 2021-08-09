@@ -7,7 +7,7 @@
     background-position: center;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1088px) {
     .lead__image {
         height: 580px;
     }  
@@ -19,9 +19,9 @@
     }  
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 525px) {
     .lead__image {
-        background-size: 425px 263px;
+        background-size: 525px 263px;
         height: 263px;
     }  
 }

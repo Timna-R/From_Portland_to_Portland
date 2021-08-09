@@ -1,32 +1,33 @@
-.places__image {
-    width: 460px;
-    height: 460px;
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 950px) and (max-width: 1024px) {
     .places__image {
         width: 440px;
         height: 440px;
     }
-}
+} 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 765px) and (max-width: 969px){
     .places__image {
         width: 340px;
         height: 340px;
     }
 }
 
-@media screen and (max-width: 425px) {
-    .places__image {
-        width: 425px;
-        height: 425px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 700px) and (max-width: 764px){
     .places__image {
         width: 320px;
         height: 320px;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 699px){
+    .places__image {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .places__image {
+        width: 100%;
     }
 }

@@ -8,7 +8,7 @@
     z-index: 4;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .logo {
         background-size: 156px 36px;
         height: 36px;

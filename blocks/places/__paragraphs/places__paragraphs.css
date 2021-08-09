@@ -1,18 +1,28 @@
-@media screen and (max-width: 768px) {
+.places__paragraphs {
+    width: 456px;
+}
+
+@media screen and (max-width: 920px) {
+    .places__paragraphs {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 860px) {
     .places__paragraphs {
         width: 352px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 780px) {
     .places__paragraphs {
-        width: 352px;
-        margin-top: 32px;
+        width: 320px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
     .places__paragraphs {
-        width: 100%;
+        width: calc( 100% -  2 * 16px);
+        margin: 32px auto 0;
     }
 }
