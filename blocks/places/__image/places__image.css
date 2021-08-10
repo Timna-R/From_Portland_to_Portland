@@ -5,6 +5,7 @@
 @media screen and (max-width: 650px) {
     .places__image {
         width: 80%;
+    }
 }
 
 @media screen and (max-width: 500px) {
