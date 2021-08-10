@@ -1,32 +1,13 @@
-@media screen and (min-width: 950px) and (max-width: 1024px) {
-    .places__image {
-        width: 440px;
-        height: 440px;
+.places__image {
+        width: 100%;
     }
-} 
-
-@media screen and (min-width: 765px) and (max-width: 969px){
-    .places__image {
-        width: 340px;
-        height: 340px;
-    }
-}
-
-@media screen and (min-width: 700px) and (max-width: 764px){
-    .places__image {
-        width: 320px;
-        height: 320px;
-    }
-}
-
-@media screen and (min-width: 651px) and (max-width: 699px){
-    .places__image {
-        width: 300px;
-        height: 300px;
-    }
-}
 
 @media screen and (max-width: 650px) {
+    .places__image {
+        width: 80%;
+}
+
+@media screen and (max-width: 500px) {
     .places__image {
         width: 100%;
     }

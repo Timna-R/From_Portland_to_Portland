@@ -5,6 +5,12 @@
 
 @media screen and (max-width: 650px) {
     .places__website {
+        margin: 30px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places__website {
         margin: 30px 0 30px 16px;
     }
 }

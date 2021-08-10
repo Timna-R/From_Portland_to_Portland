@@ -1,0 +1,9 @@
+.intro__text-box {
+    max-width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__text-box {
+        max-width: 100%;
+    }  
+}

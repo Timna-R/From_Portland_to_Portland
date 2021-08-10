@@ -2,7 +2,7 @@
     margin: 0;
     margin-left: 18px;
     color: white;
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
@@ -10,8 +10,12 @@
     opacity: 1;
 }
 
+.header__lang-link:first-child {
+    margin-left: 0;
+}
+
 .header__lang-link:hover {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {
