@@ -1,13 +1,12 @@
 .cover__link {
     min-height: 740px;
-/* What should I put instead of min-height? Otherwise the height of the image disappears */
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     background-image: url(../../../images/__background_optimized.jpg);
-    background-size: 100% 740px;
+    background-size: cover;
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,35 +29,41 @@
 
 @media screen and (max-width: 1024px) {
     .cover__link {
-        background-size: 100% 640px;
         min-height: 640px;
+    }  
+}
+
+@media screen and (max-width: 880px) {
+    .cover__link {
+        min-height: 531px;
     }  
 }
 
 @media screen and (max-width: 768px) {
     .cover__link {
-        background-size: 100% 480px;
         min-height: 480px;
     }  
 }
 
 @media screen and (max-width: 600px) {
     .cover__link {
-        background-size: 100% 375px;
         min-height: 375px;
     }  
 }
 
 @media screen and (max-width: 425px) {
     .cover__link {
-        background-size: 100% 265px;
         min-height: 265px;
     }  
 }
 
 @media screen and (max-width: 320px) {
     .cover__link {
-        background-size: 100% 200px;
         min-height: 200px;
     }  
 }
+/* Thank you so much, I learned a lot from your comments !! :)
+I have two questions it's ok not to answer.
+1. Is there a problem with multi Media Queries?
+2. Why is it not possible to give a percentage to the height?
+ (When I gave the image gone) instead of writing in pixels a lot of media queries (as in the code on this page). */

@@ -28,4 +28,4 @@ The Inter font is used. Import the font, and apply it in CSS code.
 
 **GitHub**
 
-https://github.com/Timna-R/web_project_3.git
+https://timna-r.github.io/web_project_3
