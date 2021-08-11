@@ -1,16 +1,16 @@
-.places__website {
+.place__website {
     align-self: flex-end;
     gap: 4px;
 }
 
 @media screen and (max-width: 650px) {
-    .places__website {
+    .place__website {
         margin: 30px 0;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .places__website {
+    .place__website {
         margin: 30px 0 30px 16px;
     }
 }

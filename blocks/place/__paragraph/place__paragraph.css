@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
     margin: 0;
     margin-top: 25px;
     font-family: 'Inter', Arial, sans-serif;
@@ -6,12 +6,12 @@
     line-height: 163%;
 }
 
-.places__paragraph:first-child {
+.place__paragraph:first-child {
     margin-top: 0;
 }
 
 @media screen and (max-width: 970px) {
-    .places__paragraph {
+    .place__paragraph {
         font-size: 16px;
     }
 }

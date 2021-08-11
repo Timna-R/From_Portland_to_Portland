@@ -29,3 +29,7 @@ The Inter font is used. Import the font, and apply it in CSS code.
 **GitHub**
 
 https://timna-r.github.io/web_project_3
+
+**Thanks**
+
+Thanks to Marina for checking out the project, I learned a lot :).

@@ -1,15 +1,15 @@
-.places__image {
+.place__image {
         width: 100%;
     }
 
 @media screen and (max-width: 650px) {
-    .places__image {
+    .place__image {
         width: 80%;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .places__image {
+    .place__image {
         width: 100%;
     }
 }
