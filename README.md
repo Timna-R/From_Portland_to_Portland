@@ -1,5 +1,5 @@
 # From Portland to Portland
-### Project number 3 in Practicum website development studies.
+### Project in [Practicum](https://practicum.com/) - website development studies.
 
 ### Overview
 * Intro
