@@ -29,5 +29,6 @@ The Inter font is used. Import the font, and apply it in CSS code.
   https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1
 
 **GitHub**
-
+```
   https://timna-r.github.io/From_Portland_to_Portland/
+```
