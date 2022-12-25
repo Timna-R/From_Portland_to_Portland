@@ -1,4 +1,5 @@
-# Project 3: From Portland to Portland
+# From Portland to Portland
+### Project number 3 in Practicum website development studies.
 
 ### Overview
 * Intro
