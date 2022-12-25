@@ -8,7 +8,7 @@
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a project about traveling across the US. I'ev made it so all the elements are displayed correctly on popular screen sizes.
 
 **Description of the project**
 
@@ -29,7 +29,3 @@ The Inter font is used. Import the font, and apply it in CSS code.
 **GitHub**
 
 https://timna-r.github.io/web_project_3
-
-**Thanks**
-
-Thanks to Marina for checking out the project, I learned a lot :).
