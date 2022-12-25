@@ -1,5 +1,5 @@
 # From Portland to Portland
-### Project in [Practicum](https://practicum.com?to=/practicum.com) - website development studies.
+### Project in [Practicum](https://external.ink?to=/practicum.com) - website development studies.
 
 ### Overview
 * Intro
